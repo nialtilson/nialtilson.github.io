@@ -1,4 +1,7 @@
-div {color:black;}
+div {
+  color:black;
+  font-family: sansation_regular;
+}
 em {font-size: .75em}
 
 .container {

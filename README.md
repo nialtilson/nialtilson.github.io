@@ -1,5 +1,6 @@
 # nialtilson.github.io
 My personal site, full of whoknowswhat!
+[https://nialtilson.github.io/](https://nialtilson.github.io/)
 
 A little bit of background - I started writing a blog way back in 2013 as a part of my exchange program in Germany. Essentially, I really only did it so my mom and sisters could see all the stuff I was getting into over there. But, through time, my growing passion for photography, the interest in sharing the world with whoever will listen, and it being a great way for me to remember all the adventures I get into, I've tried to keep up with it following the end of the program.
 
@@ -29,3 +30,4 @@ now some more...
 
 ## Notes and References for Me
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+[Adding Custom Fonts](https://www.pagecloud.com/blog/how-to-add-custom-fonts-to-any-website)
