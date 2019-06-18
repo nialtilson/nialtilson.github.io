@@ -22,5 +22,10 @@ and of course, the master himself...
 
 5. [srikanth-narayanan](https://github.com/srikanth-narayanan/srikanth-narayanan.github.io)
 
+now some more...
+
+6. [Skinny Bones](https://mmistakes.github.io/skinny-bones-jekyll/articles/)
+
+
 ## Notes and References for Me
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
