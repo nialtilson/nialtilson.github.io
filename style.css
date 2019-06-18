@@ -1,0 +1,27 @@
+div {color:black;}
+em {font-size: .75em}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.checkers {
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 5px solid black;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+}
+
+.red {
+  background-color: red;
+}
+
+.black {
+  background-color: black;
+}
