@@ -1,3 +1,4 @@
+/* Upload the 'Sansation' font family using @font-face */
 @font-face {
     font-family: 'sansation';
     src: url('https://github.com/nialtilson/nialtilson.github.io/tree/master/_fonts/Sansation_webfontkit/sansation_regular-webfont.woff2') format('woff2'),
@@ -45,6 +46,75 @@
     font-weight: lighter;
     font-style: italic;
 }
+
+/* Class = The Navigation Menu */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Class Feature = Navigation Links of Nav Menu */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Class = The Navigation Submenu */
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+/* Class Feature - Navigation Submenu buttons */
+.subnav .subnav-button {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Class Feature - Background Color Change on mouse hover */
+.navbar a:hover, .subnav:hover, .subnav-button {
+  background-color: #006600;
+}
+
+/* Class - Style Subnavigation content - positioned absolute */
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #006600;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Class Feature - Subnavigation Links */
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+/* Class Feature - Grey background on subnavigation link hover */
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content*/
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+
 
 body {
   margin: auto;
