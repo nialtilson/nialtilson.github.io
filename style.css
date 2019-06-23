@@ -118,11 +118,15 @@
 
 body {
   margin: auto;
-  max-width: 960px;
+  /* max-width: 960px; */
   padding-top: 0px;
   padding-bottom: 0px;
   font-family: 'sansation';
 
+}
+
+text {
+  max-width: 960px;
 }
 
 img {
