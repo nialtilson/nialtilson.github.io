@@ -47,6 +47,8 @@
     font-style: italic;
 }
 
+/*------------------------------------*/
+
 /* Class = The Navigation Menu */
 .navbar {
   overflow: hidden;
@@ -121,6 +123,7 @@
   display: block;
 }
 
+/*------------------------------------*/
 
 /* Class - Slideshow */
 .slideshow {
@@ -147,6 +150,28 @@
 
 }
 
+/* Class - Content */
+.content {
+  max-width: 960px;
+  align: middle;
+  margin: auto;
+  padding: 0.01em 16px;
+}
+
+/* Class - Text */
+.text {
+
+}
+
+h1 {
+  text-align: center;
+  font-size:2em;
+}
+
+.quote {
+  text-align: center;
+  font-style: italic;
+}
 
 body {
   margin: auto;
@@ -154,14 +179,6 @@ body {
   padding-top: 0px;
   padding-bottom: 0px;
   font-family: 'sansation';
-
-}
-
-content {
-  max-width: 960px;
-}
-
-text {
 
 }
 
@@ -185,24 +202,4 @@ img {
 
 .bullets {
 
-}
-
-.checkers {
-  width: 200px;
-  display: flex;
-  flex-wrap: wrap;
-  border: 5px solid black;
-}
-
-.box {
-  height: 100px;
-  width: 100px;
-}
-
-.red {
-  background-color: red;
-}
-
-.black {
-  background-color: black;
 }
