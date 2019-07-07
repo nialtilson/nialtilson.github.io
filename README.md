@@ -30,8 +30,11 @@ now some more...
 
 ## Notes and References for Me
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
 [Adding Custom Fonts](https://www.pagecloud.com/blog/how-to-add-custom-fonts-to-any-website)
+
 [Top Navigation Bar](https://www.w3schools.com/howto/howto_js_topnav.asp)
+
 [Navigation Toolbar with Subnav Menu](https://www.w3schools.com/howto/howto_css_subnav.asp)
 
   * Image Sizes
@@ -44,4 +47,4 @@ now some more...
     * File Type
       * Icons, solid colors - PNG
       * Pictures / Photos - JPG
-    * 
+    *
