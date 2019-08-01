@@ -1,0 +1,205 @@
+/* Upload the 'Sansation' font family using @font-face */
+@font-face {
+    font-family: 'sansation';
+    src: url('https://github.com/nialtilson/nialtilson.github.io/tree/master/_fonts/Sansation_webfontkit/sansation_regular-webfont.woff2') format('woff2'),
+         url('https://github.com/nialtilson/nialtilson.github.io/tree/master/_fonts/Sansation_webfontkit/sansation_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sansation';
+    src: url('https://github.com/nialtilson/nialtilson.github.io/blob/master/_fonts/Sansation_webfontkit/sansation_bold-webfont.woff') format('woff2'),
+         url('https://github.com/nialtilson/nialtilson.github.io/tree/master/_fonts/Sansation_webfontkit/sansation_bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sansation';
+    src: url('https://github.com/nialtilson/nialtilson.github.io/tree/master/_fonts/Sansation_webfontkit/sansation_italic-webfont.woff2') format('woff2'),
+         url('https://github.com/nialtilson/nialtilson.github.io/tree/master/_fonts/Sansation_webfontkit/sansation_italic-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: italic;
+}
+
+@font-face {
+    font-family: 'sansation';
+    src: url('https://github.com/nialtilson/nialtilson.github.io/tree/master/_fonts/Sansation_webfontkit/sansation_light-webfont.woff2') format('woff2'),
+         url('https://github.com/nialtilson/nialtilson.github.io/tree/master/_fonts/Sansation_webfontkit/sansation_light-webfont.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sansation';
+    src: url('https://github.com/nialtilson/nialtilson.github.io/tree/master/_fonts/Sansation_webfontkit/sansation_bold_italic-webfont.woff2') format('woff2'),
+         url('https://github.com/nialtilson/nialtilson.github.io/tree/master/_fonts/Sansation_webfontkit/sansation_bold_italic-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'sansation_light_italic';
+    src: url('https://github.com/nialtilson/nialtilson.github.io/tree/master/_fonts/Sansation_webfontkit/sansation_light_italic-webfont.woff2') format('woff2'),
+         url('https://github.com/nialtilson/nialtilson.github.io/tree/master/_fonts/Sansation_webfontkit/sansation_light_italic-webfont.woff') format('woff');
+    font-weight: lighter;
+    font-style: italic;
+}
+
+/*------------------------------------*/
+
+/* Class = The Navigation Menu */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+}
+
+/* Class Feature = Navigation Links of Nav Menu */
+.navbar a {
+  float: left; /* Makes sure the links stay side-by-side */
+  display: block; /* Display as block for responsive reasons */
+  font-size: 16px; /* Font size */
+  color: white; /* Text color as white */
+  text-align: center; /* Center the text within the link box */
+  padding: 14px 16px; /* Add padding on the link box */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Class Feature = Right-aligned links on Nav Menu */
+.navbar a.right {
+  float: right; /* Floats link to the right */
+}
+
+/* Class = The Navigation Submenu */
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+/* Class Feature - Navigation Submenu buttons */
+.subnav .subnav-button {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Class Feature - Background Color Change on mouse hover */
+.navbar a:hover, .subnav:hover, .subnav-button {
+  background-color: #006600;
+}
+
+/* Class - Style Subnavigation content - positioned absolute */
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #006600;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Class Feature - Subnavigation Links */
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+/* Class Feature - Grey background on subnavigation link hover */
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content*/
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+/*------------------------------------*/
+
+/* Class - Slideshow */
+.slideshow {
+
+}
+
+/* Image Class - Full*/
+.img_full {
+
+}
+
+/* Image Class - Lightbox*/
+.img_lightbox {
+
+}
+
+/* Image Class - Icon*/
+.img_icon {
+
+}
+
+/* Image Class - thumbnail*/
+.img_thumb {
+
+}
+
+/* Class - Content */
+.content {
+  max-width: 960px;
+  align: middle;
+  margin: auto;
+  padding: 0.01em 16px;
+}
+
+/* Class - Text */
+.text {
+
+}
+
+h1 {
+  text-align: center;
+  font-size:2em;
+}
+
+.quote {
+  text-align: center;
+  font-style: italic;
+}
+
+body {
+  margin: auto;
+  /* max-width: 960px; */
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: 'sansation';
+
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border: 5px black;
+}
+
+.entryTitle {
+  align-self: center;
+  color: black;
+  text-align: center;
+}
+
+.body {
+  text-align: justify;
+}
+
+.bullets {
+
+}
