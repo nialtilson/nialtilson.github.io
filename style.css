@@ -47,17 +47,47 @@
     font-style: italic;
 }
 
-/*------------------------------------*/
-
-/* Class = The Navigation Menu */
+/*--------------CLASS---------------*/
+/* Set the styles for all Navigation Bar Menus */
+/* CLASS = Navbar */
+/* Menu Bar Type - MAIN */
+/* For Use on - All */
 .navbar {
-  overflow: hidden;
+  /* set overflow to scroll */
+  /* if menu extends beyond screen, user able to still see full menu */
+  overflow: scroll;
+  /* set background color to dark grey */
   background-color: #333;
+  /* set with to full width of screen */
   width: 100%;
+
 }
 
-/* Class Feature = Navigation Links of Nav Menu */
-.navbar a {
+/* CLASS = Subnav_L */
+/* Menu Bar Type - MAIN */
+/* For Use On - ALL */
+.subnav_l {
+  /* Left-Align all base subnav elements */
+  float: left;
+  /* set overflow to scroll */
+  /* if menu extends beyond screen, user able to still see full menu */
+  overflow: scroll;
+}
+
+/* CLASS = Subnav_R */
+/* For Use On - Sub-Section, Page */
+/* NOT FOR USE ON - Main, Section */
+.subnav_r {
+  /* Left-Align all base subnav elements */
+  float: right;
+  /* set overflow to scroll */
+  /* if menu extends beyond screen, user able to still see full menu */
+  overflow: scroll;
+}
+
+/*--------------ELEMENT---------------*/
+/* ELEMENT - A (link / button) */
+a {
   float: left; /* Makes sure the links stay side-by-side */
   display: block; /* Display as block for responsive reasons */
   font-size: 16px; /* Font size */
@@ -67,139 +97,14 @@
   text-decoration: none; /* Remove underline */
 }
 
-/* Class Feature = Right-aligned links on Nav Menu */
-.navbar a.right {
-  float: right; /* Floats link to the right */
-}
-
-/* Class = The Navigation Submenu */
-.subnav {
-  float: left;
-  overflow: hidden;
-}
-
-/* Class Feature - Navigation Submenu buttons */
-.subnav .subnav-button {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-/* Class Feature - Background Color Change on mouse hover */
-.navbar a:hover, .subnav:hover, .subnav-button {
-  background-color: #006600;
-}
-
-/* Class - Style Subnavigation content - positioned absolute */
-.subnav-content {
-  display: none;
-  position: absolute;
-  left: 0;
-  background-color: #006600;
-  width: 100%;
-  z-index: 1;
-}
-
-/* Class Feature - Subnavigation Links */
-.subnav-content a {
-  float: left;
-  color: white;
-  text-decoration: none;
-}
-
-/* Class Feature - Grey background on subnavigation link hover */
-.subnav-content a:hover {
-  background-color: #eee;
-  color: black;
-}
-
-/* When you move the mouse over the subnav container, open the subnav content*/
-.subnav:hover .subnav-content {
-  display: block;
-}
-
-/*------------------------------------*/
-
-/* Class - Slideshow */
-.slideshow {
-
-}
-
-/* Image Class - Full*/
-.img_full {
-
-}
-
-/* Image Class - Lightbox*/
-.img_lightbox {
-
-}
-
-/* Image Class - Icon*/
-.img_icon {
-
-}
-
-/* Image Class - thumbnail*/
-.img_thumb {
-
-}
-
-/* Class - Content */
-.content {
-  max-width: 960px;
-  align: middle;
-  margin: auto;
-  padding: 0.01em 16px;
-}
-
-/* Class - Text */
-.text {
-
-}
-
-h1 {
-  text-align: center;
-  font-size:2em;
-}
-
-.quote {
-  text-align: center;
-  font-style: italic;
-}
-
+/* ELEMENT - Body, large impact */
 body {
+  /* Set automatic margin of page */
   margin: auto;
-  /* max-width: 960px; */
+  /* Set top padding to 0 */
   padding-top: 0px;
+  /* Set bottom padding to 0 */
   padding-bottom: 0px;
+  /* Set body Font to desired font */
   font-family: 'sansation';
-
-}
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  border: 5px black;
-}
-
-.entryTitle {
-  align-self: center;
-  color: black;
-  text-align: center;
-}
-
-.body {
-  text-align: justify;
-}
-
-.bullets {
-
 }

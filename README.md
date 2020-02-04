@@ -1,5 +1,5 @@
 # nialtilson.github.io
-My personal site, full of whoknowswhat!
+
 [https://nialtilson.github.io/](https://nialtilson.github.io/)
 
 A little bit of background - I started writing a blog way back in 2013 as a part of my exchange program in Germany. Essentially, I really only did it so my mom and sisters could see all the stuff I was getting into over there. But, through time, my growing passion for photography, the interest in sharing the world with whoever will listen, and it being a great way for me to remember all the adventures I get into, I've tried to keep up with it following the end of the program.
@@ -10,7 +10,6 @@ Now, this has simply developed into an idea to incorporate my blog and whatever 
   * I'm a learner, I like to add to my growing quiver of skills
 
 All three of those things combined, plus completion of the Udacity Intro to Programming Nanodegree, has got me here. Let's build!
-
 
 ## Inspirations for my blog and site format
 In trying to develop my own blog, and personalize it according to my taste, I did my best to draw upon examples that piqued my interest. Here are just a few that I drew inspiration from:
@@ -37,14 +36,46 @@ now some more...
 
 [Navigation Toolbar with Subnav Menu](https://www.w3schools.com/howto/howto_css_subnav.asp)
 
-  * Image Sizes
-    * Full size - max 2560px width
-    * LightBox (click and opens in page) - max 1500px wide, 8-900px tall
-    * Icon - max 640px wide
-    * Thumbnail - max 320px wide
-  * Export Settings
-    * Quality - 70%
-    * File Type
-      * Icons, solid colors - PNG
-      * Pictures / Photos - JPG
-    *
+
+## Build Notes
+## 2020.02.04
+-- index.html
+1. Initialized new document - html
+  * Default HTML is HTML5
+  * https://www.w3schools.com/html/html5_intro.asp
+  * Will enable potential Video or Audio additions later on
+2. Created Head section
+  * https://www.w3schools.com/html/html_head.asp
+  * Page Title
+  * Meta definitions
+    * https://www.w3schools.com/tags/tag_meta.asp
+    * Charset
+    * Device viewing
+  * Link to stylesheet
+3. Initialized BODY of page
+  * Created first Division - MENU
+    * Menu (Navigation Bar) framework for all pages to include roughly same structure
+    * Content of Menu will need to be modified for Sub-Section and Page levels, to include the right-aligned additional Page menu
+
+
+--style.css
+1. Added Sansation Font Family to document
+2. Created 'navbar' Class
+3. Created 'subnav_l' Class
+  * all left-aligned menu items
+4. Created 'subnav_r' Class
+  * all right-aligned menu items
+5. Created 'a' Element
+  * To be used for all links in Menu / NavBar
+  * Establishes following items:
+    * Left alignment
+    * Block display
+    * Font-Size
+    * Color
+    * Text Alignment
+    * Padding (x and y)
+    * Text Decoration
+6. Format of 'body' Element
+  * Automatic margin
+  * Zero (0) padding at top and bottom
+  * Font - Sansation (linked on github)
