@@ -45,26 +45,26 @@ now some more...
 -- Clarification of Blog Page Hierarchy
 __ Home
   1. About
-    1. Contact
-    2. Option 2
-    3. Option 3
+     1. Contact
+     2. Option 2
+     3. Option 3
   2. Blogs
-    1. Deutschland, Here We Go!
-      X. -posts and pages
-    2. Wandering the World Again
-      X. -posts and pages
+     1. Deutschland, Here We Go!
+        X. -posts and pages
+     2. Wandering the World Again
+        X. -posts and pages
   3. Projects
-    1. Website
-    2. Bikes
-      X. -posts and pages
-    3. Woodworking
-      X. -posts and pages
-    4. Other Fun Stuff
-      3.4.X -posts and pages
+     1. Website
+     2. Bikes
+        X. -posts and pages
+     3. Woodworking
+        X. -posts and pages
+     4. Other Fun Stuff
+        3.4.X -posts and pages
   4. Photos
-    1. Album 1
-    2. Album 2
-    X. .....
+     1. Album 1
+     2. Album 2
+     X. .....
 
 __    = Main
 X.    = Section
@@ -79,7 +79,6 @@ X.X.X = Page
 1.
 
 
-## Build Notes
 ## 2020.02.04
 -- index.html
 1. Initialized new document - html
