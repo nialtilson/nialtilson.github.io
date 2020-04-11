@@ -43,7 +43,7 @@ now some more...
 ## Build Notes
 ## 2020.04.11
 -- Clarification of Blog Page Hierarchy
-__ Home
+  __ Home
   1. About
      1. Contact
      2. Option 2
@@ -66,10 +66,10 @@ __ Home
      2. Album 2
      X. .....
 
-__    = Main
-X.    = Section
-X.X   = Sub-Section
-X.X.X = Page
+  __    = Main
+  X.    = Section
+  X.X   = Sub-Section
+  X.X.X = Page
 
 -- index.html
 1.
