@@ -36,6 +36,48 @@ now some more...
 
 [Navigation Toolbar with Subnav Menu](https://www.w3schools.com/howto/howto_css_subnav.asp)
 
+## Definitions and Characteristics of Site Sections
+1. Main
+
+
+## Build Notes
+## 2020.04.11
+-- Clarification of Blog Page Hierarchy
+__ Home
+  1. About
+    1. Contact
+    2. Option 2
+    3. Option 3
+  2. Blogs
+    1. Deutschland, Here We Go!
+      X. -posts and pages
+    2. Wandering the World Again
+      X. -posts and pages
+  3. Projects
+    1. Website
+    2. Bikes
+      X. -posts and pages
+    3. Woodworking
+      X. -posts and pages
+    4. Other Fun Stuff
+      3.4.X -posts and pages
+  4. Photos
+    1. Album 1
+    2. Album 2
+    X. .....
+
+__    = Main
+X.    = Section
+X.X   = Sub-Section
+X.X.X = Page
+
+-- index.html
+1.
+
+
+-- style.css
+1.
+
 
 ## Build Notes
 ## 2020.02.04
@@ -53,8 +95,8 @@ now some more...
     * Device viewing
   * Link to stylesheet
 3. Initialized BODY of page
-  * Created first Division - MENU
-    * Menu (Navigation Bar) framework for all pages to include roughly same structure
+  * Created first Division - Menu == 'navbar'
+    * Menu (div 'navbar') framework for all pages to include roughly same structure
     * Content of Menu will need to be modified for Sub-Section and Page levels, to include the right-aligned additional Page menu
 
 
@@ -66,7 +108,7 @@ now some more...
 4. Created 'subnav_r' Class
   * all right-aligned menu items
 5. Created 'a' Element
-  * To be used for all links in Menu / NavBar
+  * To be used for all links in 'navbar'
   * Establishes following items:
     * Left alignment
     * Block display
