@@ -38,14 +38,14 @@ now some more...
 
 ## Definitions and Characteristics of Site Sections
 1. Main
-  1. Menu
-  2. Title_Picture
-  3. Body
-  4. End_Picture
-  5. Disclaimers
-  6. Bottom_Menu
+   1. Menu
+   2. Title_Picture
+   3. Body
+   4. End_Picture
+   5. Disclaimers
+   6. Bottom_Menu
 2. Section
-  1. 
+   1. 
 
 
 ## Build Notes
