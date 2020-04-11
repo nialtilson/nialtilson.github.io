@@ -38,19 +38,40 @@ now some more...
 
 ## Definitions and Characteristics of Site Sections
 1. Main
-   1. Menu
-   2. Title_Picture
-   3. Body
-   4. End_Picture
-   5. Disclaimers
-   6. Bottom_Menu
+   1. Menu_Main_standard
+   2. Picture_Top
+   3. Title_Page
+   4. Body
+   5. Link_Sec
+   6. Disclaimers
+   7. Menu_Bottom
 2. Section
-   1. 
+   1. Menu_Main_standard
+   2. Picture_Pano
+   3. Title_Page
+   4. Body
+   5. Link_SubSec
+   6. Disclaimers
+   7. Menu_Bottom
+3. Sub-Section
+   1. Menu_Main_detailled
+   2. Picture_Pano
+   3. Title_Page
+   4. Body
+   5. Link_Pages
+   6. Disclaimers
+   7. Menu_Bottom
+4. Page
+   1. Menu_Main_detailled
+   2. Title_Page
+   3. Body
+   4. Disclaimers
+   5. Menu_Bottom
 
 
 ## Build Notes
 ## 2020.04.11
--- Clarification of Blog Page Hierarchy
+-- Clarification of Blog Page Hierarchy\
   __ Home
   1. About
      1. Contact
