@@ -155,10 +155,18 @@ now some more...
   __    = Main\
   X.    = Section\
   X.X   = Sub-Section\
-  X.X.X = Post
+  X.X.X = Post\
+
+  https://www.youtube.com/watch?v=BxV14h0kFs0
+  6,528,688 views. Cool video 
 
 -- index.html
-1.
+1. Worked on figuring out long-term plan for linking structure
+  * Need to establish a clear and easy navigation structure (shortening Sub-Section Names to something manageable)
+  * https://neilpatel.com/blog/site-structure-enhance-seo/
+  * May not give a shit about SEO, but some good details at the link
+  * Information Architecture - https://www.webfx.com/blog/web-design/information-architecture-101-techniques-and-best-practices/
+
 
 
 -- style.css
