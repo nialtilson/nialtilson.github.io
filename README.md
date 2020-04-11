@@ -38,6 +38,14 @@ now some more...
 
 ## Definitions and Characteristics of Site Sections
 1. Main
+  1. Menu
+  2. Title_Picture
+  3. Body
+  4. End_Picture
+  5. Disclaimers
+  6. Bottom_Menu
+2. Section
+  1. 
 
 
 ## Build Notes
@@ -49,27 +57,27 @@ now some more...
      2. Option 2
      3. Option 3
   2. Blogs
-     1. Deutschland, Here We Go!  
+     1. Deutschland, Here We Go!\
         X. -posts and pages
-     2. Wandering the World Again  
+     2. Wandering the World Again\
         X. -posts and pages
   3. Projects
      1. Website
-     2. Bikes  
+     2. Bikes\
         X. -posts and pages
-     3. Woodworking  
+     3. Woodworking\
         X. -posts and pages
-     4. Other Fun Stuff  
+     4. Other Fun Stuff\
         3.4.X -posts and pages
   4. Photos
      1. Album 1
-     2. Album 2  
+     2. Album 2\
      X. .....
 
   __    = Main\
   X.    = Section\
   X.X   = Sub-Section\
-  X.X.X = Page\
+  X.X.X = Page
 
 -- index.html
 1.
