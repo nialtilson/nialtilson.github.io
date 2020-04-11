@@ -57,7 +57,7 @@
   /* if menu extends beyond screen, user able to still see full menu */
   overflow: scroll;
   /* set background color to dark grey */
-  background-color: #033;
+  background-color: #333;
   /* set with to full width of screen */
   width: 100%;
 

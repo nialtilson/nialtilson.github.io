@@ -58,15 +58,72 @@ now some more...
    2. Picture_Pano
    3. Title_Page
    4. Body
-   5. Link_Pages
+   5. Link_Posts
    6. Disclaimers
    7. Menu_Bottom
-4. Page
+4. Post
    1. Menu_Main_detailled
    2. Title_Page
    3. Body
    4. Disclaimers
    5. Menu_Bottom
+
+## Definitions and Characteristics of Building Blocks
+### Menus
+#### Relevant for All
+* Turn green when highlighted or moused-over
+#### Menu_Main_standard
+* Contains menu options
+* ONLY left-aligned with Section and Sub-Section links
+* Present on Main and Section pages
+#### Menu_Main_detailled
+* Contains menu options
+* Left-aligned for Section and Sub-Section links
+* Right-aligned for Post links
+* Only present on Sub-Section and Post pages
+#### Menu_Bottom
+* Links to other pages, if determined to be relevant
+* Other info to be decided later
+
+### Pictures
+#### Picture_Top
+* Only present on Home Page (Main)
+* Larger picture height
+* Potential to run a slideshow here
+#### Picture_Pano
+* Present on Section and Sub-Section pages
+* Likely a smaller subset of possible pictures due to reduced height but long width
+
+### Titles
+#### Title_Page
+* Present at the top of all pages
+* Differing text sizes likely dependent upon page level
+* Titles and Headings in the Body are not covered here
+
+### Body
+* To be broken down into various sections within
+* Text
+* Pictures
+* Quotes
+* Quick Asides
+* More to come
+
+### Links
+#### Link_Sec
+* Thumbnails or icons to link to Section pages
+* Present on Main
+#### Link_SubSec
+* Thumbnails or icons to link to Sub-Section pages
+* Present on Section pages
+#### Link_Post
+* Thumbnails or icons to link to Post pages
+* Present on Sub-Section pages
+
+### Disclaimers
+* Present on all pages
+* To include copyright statement
+* Any other relevant disclaimers for protection of my data and IP
+
 
 
 ## Build Notes
@@ -98,7 +155,7 @@ now some more...
   __    = Main\
   X.    = Section\
   X.X   = Sub-Section\
-  X.X.X = Page
+  X.X.X = Post
 
 -- index.html
 1.
