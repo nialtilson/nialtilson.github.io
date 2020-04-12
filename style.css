@@ -1,8 +1,9 @@
 /* Upload the 'Sansation' font family using @font-face */
 @font-face {
     font-family: 'sansation';
-    src: url('../0_resources/0.1_fonts/0.1.1_sansation/sansation_regular-webfont.woff2') format('woff2'),
-         url('../0_resources/0.1_fonts/0.1.1_sansation/sansation_regular-webfont.woff') format('woff');
+    src: url('/0_resources/0.1_fonts/0.1.1_sansation/sansation_regular-webfont.woff2') format('woff2'),
+         url('/0_resources/0.1_fonts/0.1.1_sansation/sansation_regular-webfont.woff') format('woff'),
+         url('/0_resources/0.1_fonts/0.1.1_sansation/sansation_regular.tff') format('tff');
     font-weight: normal;
     font-style: normal;
 }
