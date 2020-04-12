@@ -61,6 +61,7 @@
   /* set with to full width of screen */
   width: 100%;
 
+
 }
 
 /* CLASS = Subnav_L */
@@ -72,6 +73,8 @@
   /* set overflow to scroll */
   /* if menu extends beyond screen, user able to still see full menu */
   overflow: scroll;
+  /* Set body Font to desired font */
+  font-family: 'sansation';
 }
 
 /* CLASS = Subnav_R */
