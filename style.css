@@ -98,7 +98,7 @@
   /* if menu extends beyond screen, user able to still see full menu */
   overflow: scroll;
   /* Set body Font to desired font */
-  font-family: 'sansation';
+  font-family: 'sansationregular';
 }
 
 /* CLASS = Subnav_R */
@@ -133,5 +133,5 @@ body {
   /* Set bottom padding to 0 */
   padding-bottom: 0px;
   /* Set body Font to desired font */
-  font-family: 'sansation';
+  font-family: 'sansationregular';
 }
