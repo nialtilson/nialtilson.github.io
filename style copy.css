@@ -1,48 +1,48 @@
 /* Upload the 'Sansation' font family using @font-face */
 @font-face {
     font-family: 'sansation';
-    src: url('https://github.com/nialtilson/nialtilson.github.io/tree/master/_fonts/Sansation_webfontkit/sansation_regular-webfont.woff2') format('woff2'),
-         url('https://github.com/nialtilson/nialtilson.github.io/tree/master/_fonts/Sansation_webfontkit/sansation_regular-webfont.woff') format('woff');
+    src: url('https://github.com/nialtilson/nialtilson.github.io/tree/master/0_resources/0.1_fonts/0.1.1_sansation/sansation_regular-webfont.woff2') format('woff2'),
+         url('https://github.com/nialtilson/nialtilson.github.io/tree/master/0_resources/0.1_fonts/0.1.1_sansation/sansation_regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'sansation';
-    src: url('https://github.com/nialtilson/nialtilson.github.io/blob/master/_fonts/Sansation_webfontkit/sansation_bold-webfont.woff') format('woff2'),
-         url('https://github.com/nialtilson/nialtilson.github.io/tree/master/_fonts/Sansation_webfontkit/sansation_bold-webfont.woff') format('woff');
+    src: url('https://github.com/nialtilson/nialtilson.github.io/tree/master/0_resources/0.1_fonts/0.1.1_sansation/sansation_bold-webfont.woff') format('woff2'),
+         url('https://github.com/nialtilson/nialtilson.github.io/tree/master/0_resources/0.1_fonts/0.1.1_sansation/sansation_bold-webfont.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'sansation';
-    src: url('https://github.com/nialtilson/nialtilson.github.io/tree/master/_fonts/Sansation_webfontkit/sansation_italic-webfont.woff2') format('woff2'),
-         url('https://github.com/nialtilson/nialtilson.github.io/tree/master/_fonts/Sansation_webfontkit/sansation_italic-webfont.woff') format('woff');
+    src: url('https://github.com/nialtilson/nialtilson.github.io/tree/master/0_resources/0.1_fonts/0.1.1_sansation/sansation_italic-webfont.woff2') format('woff2'),
+         url('https://github.com/nialtilson/nialtilson.github.io/tree/master/0_resources/0.1_fonts/0.1.1_sansation/sansation_italic-webfont.woff') format('woff');
    font-weight: normal;
    font-style: italic;
 }
 
 @font-face {
     font-family: 'sansation';
-    src: url('https://github.com/nialtilson/nialtilson.github.io/tree/master/_fonts/Sansation_webfontkit/sansation_light-webfont.woff2') format('woff2'),
-         url('https://github.com/nialtilson/nialtilson.github.io/tree/master/_fonts/Sansation_webfontkit/sansation_light-webfont.woff') format('woff');
+    src: url('https://github.com/nialtilson/nialtilson.github.io/tree/master/0_resources/0.1_fonts/0.1.1_sansation/sansation_light-webfont.woff2') format('woff2'),
+         url('https://github.com/nialtilson/nialtilson.github.io/tree/master/0_resources/0.1_fonts/0.1.1_sansation/sansation_light-webfont.woff') format('woff');
     font-weight: lighter;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'sansation';
-    src: url('https://github.com/nialtilson/nialtilson.github.io/tree/master/_fonts/Sansation_webfontkit/sansation_bold_italic-webfont.woff2') format('woff2'),
-         url('https://github.com/nialtilson/nialtilson.github.io/tree/master/_fonts/Sansation_webfontkit/sansation_bold_italic-webfont.woff') format('woff');
+    src: url('https://github.com/nialtilson/nialtilson.github.io/tree/master/0_resources/0.1_fonts/0.1.1_sansation/sansation_bold_italic-webfont.woff2') format('woff2'),
+         url('https://github.com/nialtilson/nialtilson.github.io/tree/master/0_resources/0.1_fonts/0.1.1_sansation/sansation_bold_italic-webfont.woff') format('woff');
     font-weight: bold;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'sansation_light_italic';
-    src: url('https://github.com/nialtilson/nialtilson.github.io/tree/master/_fonts/Sansation_webfontkit/sansation_light_italic-webfont.woff2') format('woff2'),
-         url('https://github.com/nialtilson/nialtilson.github.io/tree/master/_fonts/Sansation_webfontkit/sansation_light_italic-webfont.woff') format('woff');
+    src: url('https://github.com/nialtilson/nialtilson.github.io/tree/master/0_resources/0.1_fonts/0.1.1_sansation/sansation_light_italic-webfont.woff2') format('woff2'),
+         url('https://github.com/nialtilson/nialtilson.github.io/tree/master/0_resources/0.1_fonts/0.1.1_sansation/sansation_light_italic-webfont.woff') format('woff');
     font-weight: lighter;
     font-style: italic;
 }
@@ -61,6 +61,7 @@
   /* set with to full width of screen */
   width: 100%;
 
+
 }
 
 /* CLASS = Subnav_L */
@@ -72,6 +73,8 @@
   /* set overflow to scroll */
   /* if menu extends beyond screen, user able to still see full menu */
   overflow: scroll;
+  /* Set body Font to desired font */
+  font-family: 'sansation';
 }
 
 /* CLASS = Subnav_R */
