@@ -127,7 +127,20 @@ now some more...
 
 
 ## Build Notes
-## 2020.04.11
+### 2020.04.13
+-- General\
+1.  Working on getting the Main page to a standalone beginning
+
+-- index.html\
+1.  Creation of multi-leveled menu options for all except Home
+2.  
+
+-- style.css\
+1.  Inclusion of 'subnav_button' for nested menu options
+2.  Attempt at reorganizing classes and elements related to navigation to be efficient and still make sense in terms of nesting and not double-attributing things
+
+
+### 2020.04.11-12
 -- Clarification of Blog Page Hierarchy\
   __ Home
   1. About
@@ -158,7 +171,7 @@ now some more...
   X.X.X = Post\
 
   https://www.youtube.com/watch?v=BxV14h0kFs0
-  6,528,688 views. Cool video 
+  6,528,688 views. Cool video
 
 -- index.html
 1. Worked on figuring out long-term plan for linking structure
@@ -167,13 +180,7 @@ now some more...
   * May not give a shit about SEO, but some good details at the link
   * Information Architecture - https://www.webfx.com/blog/web-design/information-architecture-101-techniques-and-best-practices/
 
-
-
--- style.css
-1.
-
-
-## 2020.02.04
+### 2020.02.04
 -- index.html
 1. Initialized new document - html
   * Default HTML is HTML5
