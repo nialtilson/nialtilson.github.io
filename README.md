@@ -127,9 +127,26 @@ now some more...
 
 
 ## Build Notes
+### 2020.04.15
+-- General\
+1.  Still going through w3schools tutorials, 1/4 of the way through CSS
+
+-- index.html\
+1.  Added subnav Content
+2.  Convert dropdown menus to Lists 
+
+-- style.css\
+1.  Rearranged document setup by grouping callouts by sections
+2.  Filled in some temporary placeholders for upcoming classes and elements
+3.  Added a copyright within the disclaimers section
+4.  Modified relevent classes and elements to get navigation menu to work
+5.  
+
+
 ### 2020.04.13
 -- General\
 1.  Working on getting the Main page to a standalone beginning
+2.  Decided to say screw it and start back at square one using the w3schools HTML and CSS Tutorials
 
 -- index.html\
 1.  Creation of multi-leveled menu options for all except Home
