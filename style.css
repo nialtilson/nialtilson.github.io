@@ -89,7 +89,7 @@ body {
 
 /* ---------------------------------Top Menu--------------------------------- */
 /* ELEMENT - Main, Top Navigation Menu */
-nav {
+header, ul {
   /* set overflow to scroll */
   /* if menu extends beyond screen, user able to still see full menu */
   overflow: scroll;
@@ -99,43 +99,26 @@ nav {
   width: 100%;
   /* Set navbar Font to desired font */
   font-family: 'sansationregular';
+  /* Set Margin */
+  margin: 0px;
+  /* Set Border */
+  padding: 0px;
 }
 
-/* CLASS = nav_l, nav_r, subnav_button */
-.nav_l .nav_r .nav_button{
-  /* if menu extends beyond screen, user able to still see full menu */
-  overflow: scroll;
-  /* No border */
-  border: none;
-  /* No outline */
-  outline: none;
-}
-
-/* CLASS = nav_l */
-/* Menu Bar Type - MAIN */
-/* For Use On - ALL */
-.nav_l {
+header li {
+  /* Remove bullet points from list */
+  list-style-type: none;
+  /* Set Margin (outermost box) */
+  margin: 0px;
+  /* Set Padding (box around content, inside border) */
+  padding: 0px;
   /* Left-Align all base subnav elements */
   float: left;
 }
 
-/* CLASS = Subnav_R */
-/* For Use On - Sub-Section, Page */
-/* NOT FOR USE ON - Main, Section */
-.nav_r {
-  /* Left-Algin all base subnav elements */
-  float: right;
-}
-
-/* CLASS = Subnav_button */
-/* For Use on - All pages */
-.nav_button {
-  /* Makes sure the links stay side-by-side */
-  float: left;
+header li a {
   /* Display as block for responsive reasons */
   display: block;
-  /* Font size */
-  font-size: 16px;
   /* Text Color is White */
   color: white;
   /* Center the text within the link box */
@@ -146,45 +129,61 @@ nav {
   text-decoration: none;
 }
 
-/* Class Feature - Establish new background color when pointer hovers
-over these elements */
-.nav_l a:hover, .nav_r a:hover, .subnav_button {
+header a:hover {
+  /* Set background color of link when mouse is over the link */
   background-color: #006600;
 }
 
-/* CLASS = Subnav_content */
-/* For Use on - all menu buttons with multiple option buttons */
-.subnav_content {
-  /* Specifies type of rendering box of an element */
+.subnav {
+  /* Hides display in order for hover to show it */
   display: none;
-  /* Specifies the type of positioning for the element absolute
-  = relative to first positioned element */
+  /* Position relative to ancestor elenent */
   position: absolute;
-  /* Distance of the left border to the previous element */
-  left: 0;
-  /* Defines background color */
+  /* Set left edge equal to that of parent element */
+  left: inherit;
+  /* Set background color to match Hover */
   background-color: #006600;
-  /* Width of element is 100% of containing block */
+  /* Set width to match screen width */
   width: 100%;
   /* Specifies the stack order of an element */
   z-index: 1;
 }
 
+.subnav:hover {
+  display: block;
+}
+
+.subnav_list {
+  /* Remove bullet points from list */
+  list-style-type: none;
+  /* Specifies the stack order of an element */
+  z-index: 1;
+  /* Set Style of List */
+  list-style: none;
+  /* Inherit text color */
+  color: white;
+  /* Add padding on the link box */
+  padding: 14px 16px;
+}
+
+.subnav_list:hover {
+  /* Display items as a block for responsiveness */
+  display: block;
+}
+
 /* Detail notifier when menu item has a drop-down */
 .caret {
   display: inline-block;
-    padding: 0;
-    margin: 3px 0 0 4px;
-    font-size: 18px;
-    color: #fff;
-    vertical-align: middle;
-    border-top: 4px solid;
-    border-right: 4px solid transparent;
-    border-left: 4px solid transparent;
+  padding: 0;
+  margin: 3px 0 0 4px;
+  font-size: 18px;
+  color: inherit;
+  vertical-align: middle;
+  border-top: 4px solid;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
 }
 
-
-}
 
 /* -------------------------------Main Picture------------------------------- */
 .mainpic_full {
