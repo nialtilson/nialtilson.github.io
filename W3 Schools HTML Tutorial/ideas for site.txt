@@ -1,0 +1,19 @@
+- Body - light-grey background color
+- ALL - add title attributes for mouse-overs of key parts
+- Pictures - add alt text in case of load failures
+- Pictures - use the 'target' attribute to open pictures not in same page, but overlaid
+- Pictures - in overlaid window, be able to toggle picture to picture
+- Links - change colors (e.g. https://www.w3schools.com/html/html_links_colors.asp)
+- Navbar - Active Page different color
+- Navbar - Visited Pages different colors
+- Navbar - Use a horizontal list, https://www.w3schools.com/html/html_lists.asp
+- Navbar - use <nav> element - https://www.w3schools.com/html/html_layout.asp
+- Pictures - ensure auto-scaling of image when outside of desired size (max-width)
+- Responsiveness - set font size relative to viewport?
+  * Unsure if best move, will need to explore the RWD section and see what's suggested
+- Pictures - can use <figure> to group the <img> and <figcaption>
+- Videos - Reference this, can do in-line - https://www.w3schools.com/html/html5_video.asp
+- Text - quick asides, quotes, etc, all with differnt formatted
+  * - use a unique background color, and unique left border
+- Content Protection - https://www.elegantthemes.com/blog/business/how-to-copyright-your-websites-content
+- Content Protection - https://www.kristofcreative.com/articles/branding/how-to-copyright-website-six-easy-steps/

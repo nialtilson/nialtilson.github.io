@@ -1,0 +1,183 @@
+"title" Attribute
+- can be used to clarify a mouse-over text of a certain section
+
+"alt" Attribute
+- specifies alternative text (e.g. for a picture) if the picture can't be displayed
+
+<hr> element
+- Horizontal Rule element
+- Defines a thematic break in the html section
+
+<pre> element
+- pre-formatted element
+- format follows that which is provided in the source
+
+bolding, italics
+- Browsers display <strong> as <b>, and <em> as <i>
+- However, there is a difference in the meaning of these tags:
+  * <b> and <i> defines bold and italic text
+  * <strong> and <em> means that the text is "important"
+
+<abbr> element
+- can be used to spell out an acronym as the acronym
+- mouse-over spells out the acronym
+
+rgba color
+- alpha defines opacity of the color
+
+Margin -> Border -> Padding -> Text
+
+class Attribute
+- Define a style for special types of elements
+
+Image Maps
+- A way to put links inside of regions in a picture
+- <img> tag, then a 'usemap' attribute is needed, followed by <map> element
+
+Background Images
+- added through a style attribute, not a separate element or division
+
+Picture element
+- Allows you to display different pictures depending on screen size/device
+<picture>
+  <source media="(min-width: 650px)" srcset="img_food.jpg">
+  <source media="(min-width: 465px)" srcset="img_car.jpg">
+  <img src="img_girl.jpg">
+</picture>
+- Always specify an <img> element as the last child element of the <picture> element. The <img> element is used by browsers that do not support the <picture> element, or if none of the <source> tags matched.
+
+Tables
+- collapse the border to allow just a single line
+- "colspan" allows for merged cells
+
+Usage of Classes
+- Grouped by elements that utilize the same class
+- a.class = all link elements that have 'class' class
+- multiple classes can be called out in an element, separated by a space
+
+iFrame
+- used to display a webpage within a webpage
+
+meta Element within head
+- can define author, description, character sets, keywords, much more
+- also defines ability to auto-refresh
+
+script Element
+- defines client-side JavaScripts
+
+base Element
+- specifies the base URL and base target for all relative URLs in a page
+
+Responsiveness
+- Font - vw=viewport width, i.e. 1vw = 1% viewport width
+- Media Queries
+  * able to define different styles depending on browser size
+  * https://www.w3schools.com/html/html_responsive.asp
+
+Character Entities
+- Some characters need to be coded into use due to importance to the coding language
+- https://www.w3schools.com/html/html_entities.asp
+
+CSS Simple Selectors
+- .class
+- #id
+- * (selects all elements)
+- element
+- element, element
+
+Adding CSS
+- Can link to an external stylesheet, and have an internal style call-out
+- the most recently read style callout will be honored
+  * If want a different style on particular page than what's in stylesheet,
+    then ensure <link> is before <style> in <head>
+
+Colors
+- opacity - callout, on a scale of 0-1
+  * Will be inherited by all child elements, can make text hard to read
+- RGBA can get around this problem, by defining a (alpha channel)
+
+Background Images
+- repeat once horizontally and stretch vertically - background-repeat: repeat-x
+- repeat once vertically and stretch horizontally - background-repeat: repeat-y
+
+Margins
+- outer bounding box
+
+Borders
+- middle bounding box
+- In order for any borders to be modified, a "border-style" property must be defined
+- border style order
+  * 4 - top, right, bottom, left
+  * 3 - top, (right & left), bottom
+  * 2 - (top & bottom), (right & left)
+  * 1 - all four
+- Can also clarify most properties in a single call-out/line
+
+Padding
+- inner bounding box, inside of border
+- when padding specified, this is added to the border size (width)
+- to not have them added, use the "box-sizing" property
+
+Height/Width
+- H/W does not include padding, borders, or margins
+- sets H/W of area inside padding, borders, margins
+- max-width overrides width, useful for responsiveness
+- Also min-h/w, and max-height
+- This only defines size for the CONTENT box
+
+Box Model
+- good visual representation of hierarchy of margin -> border -> padding -> content
+
+Total Width
+= W_content + L_padding + R_padding + L_border + R_border + L_margin + R_margin
+
+Total Height
+= H_content + T_padding + B_padding + T_border + B_border + T_margin + B_margin
+
+Outline
+- a line drawn around elements, outside the border
+- outside of the elements borders and may overlap other content
+- NOT a part of the element's dimensions
+
+Text
+- To be W3C compliant with CSS, if you define "color", "background-color" must also be defined
+- text-decoration: none; to remove underlines in links, for example
+- text-indent: __px; set indentation of first line
+
+Fonts
+- Best to specify multiple fonts in case a browser/device does not support primary
+- font-variant can specify small-caps, where all letters are caps, but only first is big
+- Absolute vs. Relative (could allow for adjustment depending on device/browser type)
+- em is pixels/16, 1em = current font size (16px)
+
+Icons
+- Many catalogs of common/brand icons out there
+- Refer to this section for some examples, and how to add to page
+
+CSS Links
+- Specific Order - Link -> Visited -> Hover -> Active
+- https://www.w3schools.com/css/tryit.asp?filename=trycss_cursor
+- https://www.w3schools.com/css/tryit.asp?filename=trycss_link2
+
+List Formatting
+- "list-style-image" - Can add images as the bullet point
+- "list-style-position" - Can modify location of the bullet point
+
+Display
+- 'block'  - always starts on a new line and takes up the full width
+  * <div> <h1-6> <p> <form> <header> <footer> <section>
+- 'inline' - only takes up as much width as necessary; no new line
+  * <span> <a> <img>
+- 'none'   - used with JavaScript to hide and show elements without deleting
+- Changing "display" only changes how the element is displayed
+- visibility allows for hidden - still there just invisible
+
+Width
+- Use of max-width allows for resizing dependent upon browser size
+
+Position
+- Inner scroll sections - position: sticky
+
+Z-Index
+- Specifies the stack order of elements
+- Essentially Layering, as in Photoshop

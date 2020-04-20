@@ -85,6 +85,8 @@ body {
   padding-bottom: 0px;
   /* Set body Font to desired font */
   font-family: 'sansationregular';
+  /* Set Font Size base as 100% as defined */
+  font-size: 100%;
 }
 
 /* ---------------------------------Top Menu--------------------------------- */

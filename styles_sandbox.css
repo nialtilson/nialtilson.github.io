@@ -1,0 +1,75 @@
+.nav_list {
+  /* Remove bullet points from list */
+  list-style-type: none
+  /* Set Margin (outermost box) */
+  margin: 0px;
+  /* Set Padding (box around content, inside border) */
+  padding: 0px;
+  /* Left-Align all base subnav elements */
+  float: left;
+}
+
+/* CLASS = Subnav_button */
+/* For Use on - All pages */
+.nav_button {
+  /* Remove bullet points from list */
+  list-style-type: none;
+  /* Makes sure the links stay side-by-side */
+  float: left;
+  /* Font size */
+  font-size: 16px;
+
+}
+
+
+
+/* CLASS = nav_l, nav_r, subnav_button */
+.nav_l .nav_r .nav_button{
+  /* if menu extends beyond screen, user able to still see full menu */
+  overflow: scroll;
+  /* No border */
+  border: none;
+  /* No outline */
+  outline: none;
+}
+
+/* CLASS = nav_l */
+/* Menu Bar Type - MAIN */
+/* For Use On - ALL */
+.nav_l {
+  /* Left-Align all base subnav elements */
+  float: left;
+}
+
+/* CLASS = Subnav_R */
+/* For Use On - Sub-Section, Page */
+/* NOT FOR USE ON - Main, Section */
+.nav_r {
+  /* Left-Algin all base subnav elements */
+  float: right;
+}
+
+
+
+/* Class Feature - Establish new background color when pointer hovers
+over these elements */
+.nav_l a:hover, .nav_r a:hover, .subnav_button
+
+
+/* CLASS = Subnav_content */
+/* For Use on - all menu buttons with multiple option buttons */
+.subnav {
+  /* Specifies type of rendering box of an element */
+  display: none;
+  /* Specifies the type of positioning for the element absolute
+  = relative to first positioned element */
+  position: absolute;
+  /* Distance of the left border to the previous element */
+  left: 0;
+  /* Defines background color */
+  background-color: #006600;
+  /* Width of element is 100% of containing block */
+  width: 100%;
+  /* Specifies the stack order of an element */
+  z-index: 1;
+}
