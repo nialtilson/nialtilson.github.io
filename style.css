@@ -208,6 +208,10 @@ header li.dropdown {
   margin: auto;
 }
 
+.body h1 {
+  text-align: center;
+}
+
 .body p {
   text-align: justify;
 }
