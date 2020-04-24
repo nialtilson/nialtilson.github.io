@@ -200,7 +200,16 @@ header li.dropdown {
 
 /* -------------------------Page Body / Main Content------------------------- */
 .body {
+  /* Add padding to content on L and R sides */
   padding: 0px 20px;
+  /* Set maximum width of the related element */
+  max-width: 900px;
+  /* Center element */
+  margin: auto;
+}
+
+.body p {
+  text-align: justify;
 }
 
 .text {
@@ -233,13 +242,7 @@ footer {
   margin: 0px;
   /* no border */
   border: none;
-}
-
-footer {
-  /* Set position to fixed at the bottom */
-  /* position: fixed; */
-  /* Set distance from bottom to 0 */
-  /* bottom: 0px; */
+  /* Ensure footer spreads the width of the screen */
   width: 100%;
 }
 

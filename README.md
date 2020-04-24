@@ -128,10 +128,10 @@ now some more...
 
 ## Build Notes
 ### 2020.04.24
--- General\
+-- General
 1. After a ton of lessons on the W3 Schools site, I've got a working nav menu!
 
--- index.html\
+-- index.html
 1. Modified navigation menu
   - Unordered list, with only one level
   - Any list items that have a dropdown are a specific class
@@ -140,19 +140,19 @@ now some more...
 2. Moved Copyright and Disclaimers to the bottom of the footer
   - To be debated whether I want to add a bunch of stuff to the footer or not
 
--- style.css\
+-- style.css
 1. Big changes
 
 
 ### 2020.04.15
--- General\
+-- General
 1.  Still going through w3schools tutorials, 1/4 of the way through CSS
 
--- index.html\
+-- index.html
 1.  Added subnav Content
 2.  Convert dropdown menus to Lists
 
--- style.css\
+-- style.css
 1.  Rearranged document setup by grouping callouts by sections
 2.  Filled in some temporary placeholders for upcoming classes and elements
 3.  Added a copyright within the disclaimers section
@@ -160,21 +160,21 @@ now some more...
 
 
 ### 2020.04.13
--- General\
+-- General
 1.  Working on getting the Main page to a standalone beginning
 2.  Decided to say screw it and start back at square one using the w3schools HTML and CSS Tutorials
 
--- index.html\
+-- index.html
 1.  Creation of multi-leveled menu options for all except Home
 2.  
 
--- style.css\
+-- style.css
 1.  Inclusion of 'subnav_button' for nested menu options
 2.  Attempt at reorganizing classes and elements related to navigation to be efficient and still make sense in terms of nesting and not double-attributing things
 
 
 ### 2020.04.11-12
--- Clarification of Blog Page Hierarchy\
+-- Clarification of Blog Page Hierarchy
   __ Home
   1. About
      1. Contact
@@ -201,7 +201,7 @@ now some more...
   __    = Main\
   X.    = Section\
   X.X   = Sub-Section\
-  X.X.X = Post\
+  X.X.X = Post
 
   https://www.youtube.com/watch?v=BxV14h0kFs0
   6,528,688 views. Cool video
