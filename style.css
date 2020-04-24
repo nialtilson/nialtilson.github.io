@@ -192,7 +192,7 @@ header li.dropdown {
 /* -------------------------------Main Picture------------------------------- */
 .mainpic {
   background-color: #333333;
-  
+
 }
 
 img.full {
@@ -213,7 +213,7 @@ img.full {
   /* Add padding to content on L and R sides */
   padding: 0px 20px;
   /* Set maximum width of the related element */
-  max-width: 900px;
+  max-width: 800px;
   /* Center element */
   margin: auto;
 }
