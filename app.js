@@ -3,7 +3,7 @@ img_carousel();
 
 function img_carousel() {
   var i;
-  var x = document.getElementsByClassName("img_full");
+  var x = document.getElementsByClassName("full");
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";
   }
