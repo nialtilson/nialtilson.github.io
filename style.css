@@ -190,11 +190,20 @@ header li.dropdown {
 
 
 /* -------------------------------Main Picture------------------------------- */
-.mainpic_full {
-
+.mainpic {
+  background-color: #333333;=
 }
 
-.mainpic_pano {
+img.full {
+  border: black 2px;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.pano {
 
 }
 
