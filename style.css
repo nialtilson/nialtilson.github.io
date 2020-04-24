@@ -79,48 +79,46 @@ on April 12, 2020 */
 body {
   /* Set automatic margin of page */
   margin: auto;
-  /* Set top padding to 0 */
-  padding-top: 0px;
-  /* Set bottom padding to 0 */
-  padding-bottom: 0px;
   /* Set body Font to desired font */
   font-family: 'sansationregular';
   /* Set Font Size base as 100% as defined */
   font-size: 100%;
+  /* Set background color */
+  background-color: #e6e6e6;
 }
 
 /* ---------------------------------Top Menu--------------------------------- */
+/* header {
+  position: fixed;
+  width: 100%
+  top: 0;
+} */
 /* ELEMENT - Main, Top Navigation Menu */
-header, ul {
-  /* set overflow to scroll */
-  /* if menu extends beyond screen, user able to still see full menu */
-  overflow: scroll;
-  /* set background color to dark grey */
-  background-color: #333;
-  /* set with to full width of screen */
-  width: 100%;
-  /* Set navbar Font to desired font */
-  font-family: 'sansationregular';
+header ul {
+  /* Remove bullet points from list */
+  list-style-type: none;
   /* Set Margin */
   margin: 0px;
   /* Set Border */
   padding: 0px;
+  /* if menu extends beyond screen, user able to still see full menu */
+  overflow: scroll;
+  /* set background color to dark grey */
+  background-color: #333333;
+  /* Set navbar Font to desired font */
+  font-family: 'sansationregular';
 }
 
 header li {
-  /* Remove bullet points from list */
-  list-style-type: none;
-  /* Set Margin (outermost box) */
-  margin: 0px;
-  /* Set Padding (box around content, inside border) */
-  padding: 0px;
   /* Left-Align all base subnav elements */
   float: left;
 }
 
-header li a {
+/* sets format for all links as list items within 'header'
+as well as for all elements as subnav class (the box of dropdown items) */
+header li a, .subnav {
   /* Display as block for responsive reasons */
-  display: block;
+  display: inline-block;
   /* Text Color is White */
   color: white;
   /* Center the text within the link box */
@@ -131,46 +129,50 @@ header li a {
   text-decoration: none;
 }
 
-header a:hover {
+header li a.active {
+  background-color: #666666;
+}
+
+/* Sets background color for all links when hovered,
+including those within the dropdown list */
+header li a:hover, .dropdown:hover .subnav {
   /* Set background color of link when mouse is over the link */
   background-color: #006600;
 }
 
-.subnav {
-  /* Hides display in order for hover to show it */
+/* Dropdown - class for the list item containing the subnav box and links */
+/* Subnav - class for the link that is hovered to reveal subnav box and links */
+/* Subnav_box - class of the container for the subnav links */
+
+header li.dropdown {
+  display: inline-block;
+}
+
+.subnav_box {
+  /* Hide list until :hover */
   display: none;
-  /* Position relative to ancestor elenent */
+  /* Set position to fixed next to dropdown */
   position: absolute;
-  /* Set left edge equal to that of parent element */
-  left: inherit;
-  /* Set background color to match Hover */
-  background-color: #006600;
-  /* Set width to match screen width */
-  width: 100%;
-  /* Specifies the stack order of an element */
-  z-index: 1;
-}
-
-.subnav:hover {
-  display: block;
-}
-
-.subnav_list {
+  /* Define again background-color, default not inherited */
+  background-color: #333333;
+  /* Set shadow around list box */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   /* Remove bullet points from list */
   list-style-type: none;
   /* Specifies the stack order of an element */
   z-index: 1;
-  /* Set Style of List */
-  list-style: none;
-  /* Inherit text color */
-  color: white;
-  /* Add padding on the link box */
-  padding: 14px 16px;
 }
 
-.subnav_list:hover {
+.dropdown:hover .subnav_box{
   /* Display items as a block for responsiveness */
   display: block;
+}
+
+.subnav_box a {
+  /* Set all items to have their own line */
+  display: block;
+  /* Align text to left */
+  text-align: left;
 }
 
 /* Detail notifier when menu item has a drop-down */
@@ -197,6 +199,10 @@ header a:hover {
 }
 
 /* -------------------------Page Body / Main Content------------------------- */
+.body {
+  padding: 0px 20px;
+}
+
 .text {
 
 }
@@ -213,17 +219,43 @@ header a:hover {
 
 }
 
+::selection {
 
-
-/* -------------------------------Disclaimers-------------------------------- */
-.disclaimer {
-  /* Align text in the center of the content box */
-  text-align: center;
 }
-
-
 
 /* -------------------------------Bottom Menu-------------------------------- */
 footer {
+  /* Set background to match header and footer */
+  background-color: #333333;
+  /* Set top and bottom padding */
+  padding: 5px 0px;
+  /* Set margin to 0 */
+  margin: 0px;
+  /* no border */
+  border: none;
+}
 
+footer {
+  /* Set position to fixed at the bottom */
+  /* position: fixed; */
+  /* Set distance from bottom to 0 */
+  /* bottom: 0px; */
+  width: 100%;
+}
+
+.disclaimer {
+  /* Set background to match header and footer */
+  background-color: #333333;
+  /* Set top and bottom padding */
+  padding: 3px 0px;
+  /* Align text in the center of the content box */
+  text-align: center;
+  /* Set text to white */
+  color: white;
+  /* Set Margin for a little breathing room */
+  margin: 0px;
+  /* no border */
+  border: none;
+  /* set display to make sure it's its own line */
+  display: block;
 }
