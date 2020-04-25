@@ -295,6 +295,7 @@ img.full {
 div.gallery {
   border: 1px solid #333333;
   opacity: 80%;
+  margin-bottom: 10px;
 }
 
 div.gallery:hover {
@@ -310,20 +311,14 @@ div.gallery img {
 div.gallery .desc {
   padding: 15px;
   text-align: center;
+  font-size: 1.5em;
 }
 
 .responsive {
   padding: 0px 6px;
   float: left;
-  width: 24.99999%;
+  width: 49.99999%;
   box-sizing: border-box;
-}
-
-@media only screen and (max-width:700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0px;
-  }
 }
 
 @media only screen and (max-width:500px) {
@@ -336,6 +331,7 @@ div.gallery .desc {
   content: "";
   display: table;
   clear: both;
+  margin-bottom: 20px;
 }
 
 /* -------------------------------Bottom Menu-------------------------------- */
