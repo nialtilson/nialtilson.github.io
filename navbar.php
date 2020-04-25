@@ -1,7 +1,8 @@
-<? php
+<?php
 echo
-"<header>
+<header>
   <ul>
+    // <!-- Button Menu for HOME -->
     <li>
       <a class="" href="https://nialtilson.github.io/index.html">Home</a>
     </li>
@@ -16,7 +17,7 @@ echo
         <a class="" href="https://nialtilson.github.io/1_about/1.3_hodgepodge/1.3_hodgepodge.html">Hodgepodge</a>
       </div>
     </li>
-    <!-- Button Menu for BLOGS -->
+    // <!-- Button Menu for BLOGS -->
     <li class="dropdown">
       <a class="subnav" href="https://nialtilson.github.io/2_blogs/2_blogs.html">Blogs
         <span class="caret"></span>
@@ -27,7 +28,7 @@ echo
         <a class="" href="https://nialtilson.github.io/2_blogs/2.1_dhwg/2.1_dhwg.html">Deutschland, Here We Go!</a>
       </div>
     </li>
-    <!-- Button Menu for PROJECTS -->
+    // <!-- Button Menu for PROJECTS -->
     <li class="dropdown">
       <a class="" href="https://nialtilson.github.io/3_projects/3_projects.html">Projects
         <span class="caret"></span>
@@ -38,7 +39,7 @@ echo
         <a class="" href="https://nialtilson.github.io/3_projects/3.3_other/3.3_other.html">Other</a>
       </div>
     </li>
-    <!-- Button Menu for PHOTOS -->
+    // <!-- Button Menu for PHOTOS -->
     <li class="dropdown">
       <a class="" href="https://nialtilson.github.io/4_photos/4_photos.html">Photos
         <span class="caret"></span>
@@ -50,5 +51,5 @@ echo
       </div>
     </li>
   </ul>
-</header>";
+</header>;
 ?>
