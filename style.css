@@ -325,11 +325,11 @@ div.gallery:hover {
 div.gallery img {
   width: 100%;
   height: auto;
-  border: 1px solid #333333;
+  border-bottom: 1px solid #333333;
 }
 
 div.gallery img:hover {
-  border: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 div.gallery .desc {
