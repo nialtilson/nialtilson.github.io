@@ -129,6 +129,17 @@ now some more...
 ## Build Notes
 ### 2020.04.24
 -- General
+1. TBD
+
+-- index.html
+1.
+
+-- style.css
+1. Modified NavBar position to sticky allowing for it to remain on screen
+
+
+### 2020.04.24
+-- General
 1. After a ton of lessons on the W3 Schools site, I've got a working nav menu!
 
 -- index.html
@@ -139,9 +150,14 @@ now some more...
   - Each link is then a new block within that container
 2. Moved Copyright and Disclaimers to the bottom of the footer
   - To be debated whether I want to add a bunch of stuff to the footer or not
+3. Added MainPic section, including test for Full on Home page
 
 -- style.css
 1. Big changes
+2. Seriously, a lot
+
+-- app.js
+1. Included code to allow for slideshow on Full mainpic section
 
 
 ### 2020.04.15
