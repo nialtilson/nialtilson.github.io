@@ -12,3 +12,7 @@ function img_carousel() {
   x[myIndex-1].style.display = "block";
   setTimeout(img_carousel,3000);
 }
+
+function(){
+  $("#nav-placeholder").load("navbar.html");
+}
