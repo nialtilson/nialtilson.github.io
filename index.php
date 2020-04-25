@@ -23,7 +23,7 @@
   <!-- Menu-Type = MAIN -->
   <!-- DIVISION - Top Menu Left-Aligned Selections -->
   <?php
-  include('navbar.html');
+  include('navbar.php');
   ?>
 
 
