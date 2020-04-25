@@ -233,7 +233,8 @@ img.full {
 #blogdisclaim {
   font-style: italic;
   font-size: 0.6em;
-  max-width: 600px;  
+  max-width: 600px;
+  text-align: center;
 }
 
 .text {
