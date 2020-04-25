@@ -226,6 +226,10 @@ img.full {
   text-align: justify;
 }
 
+.body small {
+  padding: 20px;
+}
+
 .text {
 
 }
