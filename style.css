@@ -209,9 +209,15 @@ img.full {
 
 }
 
+@media only screen and (max-width:900px) {
+  img.full {
+    width: 60%;
+  }
+}
+
 @media only screen and (max-width:700px) {
   img.full {
-    width: 75%;
+    width: 70%;
   }
 }
 
