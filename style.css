@@ -220,6 +220,7 @@ img.full {
 
 .body h1 {
   text-align: center;
+  letter-spacing: 3px;
 }
 
 .body p {
@@ -228,11 +229,12 @@ img.full {
 
 .body p a:link {
   text-decoration: none;
-  color: #666666;
+  color: #333333;
 }
 
 .body p a:hover {
   text-decoration:underline;
+  color: #006600;
 }
 
 .body small {
