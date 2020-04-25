@@ -92,6 +92,7 @@ header {
   position: sticky;
   width: 100%;
   top: 0;
+  z-index: 1;
 }
 /* ELEMENT - Main, Top Navigation Menu */
 header ul {
@@ -208,6 +209,18 @@ img.full {
 
 }
 
+@media only screen and (max-width:700px) {
+  img.full {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  img.full {
+    width: 100%;
+  }
+}
+
 /* -------------------------Page Body / Main Content------------------------- */
 .body {
   /* Add padding to content on L and R sides */
@@ -311,7 +324,7 @@ div.gallery img {
 div.gallery .desc {
   padding: 15px;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 .responsive {
