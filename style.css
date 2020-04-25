@@ -227,8 +227,13 @@ img.full {
 }
 
 .body small {
-  /* margin: 20px;
-  padding: 0px; */
+  max-width: 600px;
+}
+
+#blogdisclaim {
+  font-style: italic;
+  font-size: 0.6em;
+  max-width: 600px;  
 }
 
 .text {
