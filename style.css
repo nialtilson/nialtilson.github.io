@@ -251,12 +251,12 @@ img.full {
   color: #333333;
 }
 
-.body p a:hover {
+a.body:hover {
   text-decoration:underline;
   color: #006600;
 }
 
-.body p a:visited {
+a.body:visited {
   text-decoration: none;
   color: #333333;
 }
