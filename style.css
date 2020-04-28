@@ -250,6 +250,10 @@ img.full {
   text-align: justify;
 }
 
+a.body {
+  padding: 0px;
+}
+
 a.body:link {
   text-decoration: underline;
   color: #333333;
