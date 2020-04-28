@@ -103,7 +103,7 @@ header ul {
   /* Set Border */
   padding: 0px;
   /* if menu extends beyond screen, user able to still see full menu */
-  overflow: scroll;
+  overflow: hidden;
   /* set background color to dark grey */
   background-color: #333333;
   /* Set navbar Font to desired font */
@@ -299,25 +299,68 @@ a.body:visited {
   width: 100%;
   max-width: 500px;
   margin: auto;
+  border: 1px solid #666666;
+}
+
+#listheaders {
+  list-style-type: none;
+  display: block;
+  padding: 0px 10px;
+  height: 40px;
+  background-color: lightgrey;
   box-sizing: border-box;
+  font-weight: bold;
+  font-size: 1.2em;
+  border-bottom: 1px solid #666666;
+}
+
+.li {
+  list-style-type: none;
 }
 
 .post {
+  list-style-type: none;
   display: block;
-  padding: 0;
-  width: 100%;
-  margin: 5px;
+  padding: 0px 10px;
+  height: 40px;
+  background-color: #e6e6e6;
+  box-sizing: border-box;
+  border-top: 1px solid grey;
+}
+
+.post:link {
+  color: inherit;
+}
+
+.post:visited {
+  color: #666666;
+}
+
+.post:hover {
+  background-color: #006600;
+  color: white;
+}
+
+.post:active {
+  color: black;
+}
+
+.title, .date {
+  padding: 10px 0px;
   height: 20px;
 }
 
 .title {
-  display: inline-block;
   float: left;
 }
 
 .date {
-  display: inline-block;
   float: right;
+}
+
+.post a {
+  text-decoration: none;
+  color: black;
 }
 
 
