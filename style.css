@@ -242,11 +242,15 @@ img.full {
   letter-spacing: 3px;
 }
 
+.body h2 {
+  text-align: center;
+}
+
 .body p {
   text-align: justify;
 }
 
-.body p a:link {
+a.body:link {
   text-decoration: underline;
   color: #333333;
 }
@@ -289,6 +293,34 @@ a.body:visited {
   max-width: 60%;
   border: 1px solid black;
 }
+
+.listcont {
+  padding: 0px;
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.post {
+  display: block;
+  padding: 0;
+  width: 100%;
+  margin: 5px;
+  height: 20px;
+}
+
+.title {
+  display: inline-block;
+  float: left;
+}
+
+.date {
+  display: inline-block;
+  float: right;
+}
+
+
 
 .text {
 
