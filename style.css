@@ -235,6 +235,7 @@ img.full {
   max-width: 800px;
   /* Center element */
   margin: auto;
+  font-size: 1em;
 }
 
 .body h1 {
@@ -262,6 +263,7 @@ a.body:link {
 a.body:hover {
   text-decoration:underline;
   color: #006600;
+  font-weight: bold;
 }
 
 a.body:visited {
@@ -367,21 +369,19 @@ a.body:visited {
   color: black;
 }
 
-
+.quickhit {
+  padding-right: 40px;
+  padding-left: 40px;
+  font-size: 0.95em;
+}
 
 .text {
 
 }
 
-.quickhit {
 
-}
 
 .quote {
-
-}
-
-.pic {
 
 }
 
