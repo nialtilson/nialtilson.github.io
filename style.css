@@ -291,13 +291,16 @@ a.body:visited {
 }
 
 .body img.horz {
+  display: block;
   max-width: 100%;
   border: 1px solid black;
 }
 
 .body img.vert {
+  display: block;
   max-width: 60%;
   border: 1px solid black;
+  margin: auto;
 }
 
 .listcont {
@@ -372,7 +375,7 @@ a.body:visited {
 .quickhit {
   padding-right: 40px;
   padding-left: 40px;
-  font-size: 0.95em;
+  font-size: 0.9em;
 }
 
 .text {
