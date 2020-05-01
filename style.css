@@ -173,7 +173,7 @@ header li.dropdown {
   /* Hide list until :hover */
   display: none;
   font-size: 13px;
-  max-height: 600%;
+  max-height: 500px;
   overflow: scroll;
   /* Set position to fixed next to dropdown */
   position: absolute;
