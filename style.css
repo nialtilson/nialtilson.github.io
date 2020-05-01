@@ -335,6 +335,8 @@ a.body:visited {
   background-color: #e6e6e6;
   box-sizing: border-box;
   border-top: 1px solid grey;
+  position: relative;
+  font-family: 'Courier';
 }
 
 .post:link {
@@ -343,28 +345,47 @@ a.body:visited {
 
 .post:visited {
   color: #666666;
+  font-family: 'sansationregular';
 }
 
 .post:hover {
   background-color: #006600;
   color: white;
+  font-family: 'sansationregular';
 }
 
 .post:active {
   color: black;
 }
 
+.titletop, .datetop {
+  padding: 10px 0px;
+  /* height: 20px; */
+}
+
+.titletop {
+  float: left;
+}
+
+.datetop {
+  float: right;
+}
+
 .title, .date {
   padding: 10px 0px;
-  height: 20px;
 }
 
 .title {
   float: left;
+  position: absolute;
+  max-width: 79.99%;
 }
 
 .date {
   float: right;
+  position: absolute;
+  right: 10px;
+  max-width:19.99%
 }
 
 .post a {
