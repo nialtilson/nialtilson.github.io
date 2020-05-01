@@ -169,7 +169,26 @@ header li.dropdown {
   z-index: 1;
 }
 
-.dropdown:hover .subnav_box{
+.subnav_box_page {
+  /* Hide list until :hover */
+  /* display: none; */
+  font-size: 13px;
+  max-height: 600%;
+  overflow: scroll;
+  /* Set position to fixed next to dropdown */
+  position: absolute;
+  right: 0px;
+  /* Define again background-color, default not inherited */
+  background-color: #333333;
+  /* Set shadow around list box */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  /* Remove bullet points from list */
+  list-style-type: none;
+  /* Specifies the stack order of an element */
+  z-index: 1;
+}
+
+.dropdown:hover .subnav_box, .dropdown:hover .subnav_box_page{
   /* Display items as a block for responsiveness */
   display: block;
 }
@@ -179,6 +198,23 @@ header li.dropdown {
   display: block;
   /* Align text to left */
   text-align: left;
+}
+
+.subnav_box_page a {
+  /* Set all items to have their own line */
+  display: block;
+  /* Align text to left */
+  text-align: left;
+}
+
+.page_link {
+  padding: 6px 16px;
+}
+
+.fas {
+  color: white;
+  font-size: 20px;
+  padding: 13px 16px;
 }
 
 /* Detail notifier when menu item has a drop-down */
