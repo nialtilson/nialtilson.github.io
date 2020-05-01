@@ -298,12 +298,11 @@ a.body {
 
 a.body:link {
   text-decoration: underline;
-  color: #333333;
+  color: #006600;
 }
 
 a.body:hover {
   text-decoration:underline;
-  color: #006600;
   font-weight: bold;
 }
 
