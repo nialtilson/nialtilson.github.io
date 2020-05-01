@@ -115,6 +115,11 @@ header li {
   float: left;
 }
 
+header li.page {
+  /* Force the page menu icon to the Right */
+  float: right;
+}
+
 /* sets format for all links as list items within 'header'
 as well as for all elements as subnav class (the box of dropdown items) */
 header li a, .subnav {
