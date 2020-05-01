@@ -4,17 +4,17 @@ $.get("https://nialtilson.github.io/navbar.html", function(data){
 });
 
 //Main Navigation Menu Callout for Deutschland, Here We Go! Pages
-$.get("https://nialtilson.github.io/navbar_dhwg.html", function(data){
+$.get("https://nialtilson.github.io/navbar-dhwg.html", function(data){
   $("#nav-placeholder-dhwg").replaceWith(data);
 });
 
 //Main Navigation Menu Callout for Wandering the World with Nial Pages
-$.get("https://nialtilson.github.io/navbar_wtwwn.html", function(data){
+$.get("https://nialtilson.github.io/navbar-wtwwn.html", function(data){
   $("#nav-placeholder-wtwwn").replaceWith(data);
 });
 
 //Main Navigation Menu Callout for Deutschland, Here We Go Again! Pages
-$.get("https://nialtilson.github.io/navbar_dhwga.html", function(data){
+$.get("https://nialtilson.github.io/navbar-dhwga.html", function(data){
   $("#nav-placeholder-dhwga").replaceWith(data);
 });
 
