@@ -33,8 +33,11 @@ $.get("navbar_dhwga.html", function(data){
   $("#nav-placeholder-dhwga").replaceWith(data);
 });
 
-
 //Footer Callout for all pages
 $.get("footer.html", function(data){
   $("#footer").replaceWith(data);
+});
+
+$(function() {
+  $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
 });
