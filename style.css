@@ -171,7 +171,7 @@ header li.dropdown {
 
 .subnav_box_page {
   /* Hide list until :hover */
-  /* display: none; */
+  display: none;
   font-size: 13px;
   max-height: 600%;
   overflow: scroll;
