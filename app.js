@@ -34,7 +34,7 @@ $.get("navbar.html", function(data){
 // });
 //
 //
-// //Footer Callout for all pages
-// $.get("footer.html", function(data){
-//   $("#footer").replaceWith(data);
-// });
+//Footer Callout for all pages
+$.get("footer.html", function(data){
+  $("#footer").replaceWith(data);
+});
