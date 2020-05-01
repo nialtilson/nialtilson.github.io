@@ -188,7 +188,7 @@ header li.dropdown {
   z-index: 1;
 }
 
-.dropdown:hover .subnav_box{
+.dropdown:hover .subnav_box, .dropdown:hover .subnav_box_page{
   /* Display items as a block for responsiveness */
   display: block;
 }
