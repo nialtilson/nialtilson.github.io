@@ -269,7 +269,7 @@ img.full {
 }
 
 /* -------------------------Page Body / Main Content------------------------- */
-.body {
+.body, .body_ctr {
   /* Add padding to content on L and R sides */
   padding: 0px 20px;
   /* Set maximum width of the related element */
@@ -292,21 +292,26 @@ img.full {
   text-align: justify;
 }
 
-a.body {
+a.body, a.body_ctr {
   padding: 0px;
 }
 
-a.body:link {
+a.body_ctr {
+  display: block;
+  text-align: center;
+}
+
+a.body:link, a.body_ctr:link {
   text-decoration: underline;
   color: #006600;
 }
 
-a.body:hover {
+a.body:hover, a.body_ctr:hover {
   text-decoration:underline;
   font-weight: bold;
 }
 
-a.body:visited {
+a.body:visited, a.body_ctr:visited {
   text-decoration: none;
   color: #333333;
 }
@@ -332,13 +337,28 @@ a.body:visited {
 
 .body img.horz {
   display: block;
+  margin:auto;
   max-width: 100%;
+  border: 1px solid black;
+}
+
+.body img.horz_sm {
+  display: block;
+  margin: auto;
+  max-width: 70%;
   border: 1px solid black;
 }
 
 .body img.vert {
   display: block;
   max-width: 60%;
+  border: 1px solid black;
+  margin: auto;
+}
+
+.body img.vert_sm {
+  display: block;
+  max-width: 40%;
   border: 1px solid black;
   margin: auto;
 }
