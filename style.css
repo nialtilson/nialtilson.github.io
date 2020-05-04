@@ -459,15 +459,20 @@ a.body:visited, a.body_ctr:visited {
   font-size: 0.9em;
 }
 
+.quote {
+  padding-left: 40px;
+  font-style: italic;
+}
+
+
+
 .text {
 
 }
 
 
 
-.quote {
 
-}
 
 ::selection {
 
