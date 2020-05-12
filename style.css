@@ -453,6 +453,11 @@ a.body:visited, a.body_ctr:visited {
   color: black;
 }
 
+.pic_descr {
+  font-size: 0.9em;
+  text-align: center !important;
+}
+
 .quickhit {
   padding-right: 40px;
   padding-left: 40px;
