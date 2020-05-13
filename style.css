@@ -472,8 +472,8 @@ a.body:visited, a.body_ctr:visited {
 
 
 
-.text {
-
+.code {
+  font-family: monospace;
 }
 
 
