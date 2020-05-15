@@ -476,7 +476,9 @@ a.body:visited, a.body_ctr:visited {
   font-family: monospace;
 }
 
-
+strong {
+  color: #666666;
+}
 
 
 
