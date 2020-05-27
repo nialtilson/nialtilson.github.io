@@ -480,7 +480,9 @@ strong {
   color: #006600;
 }
 
-
+li {
+  text-align: justify;
+}
 
 ::selection {
 
