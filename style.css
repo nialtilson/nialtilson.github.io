@@ -246,7 +246,7 @@ img.full {
 
 }
 
-.pano {
+.pano_head {
 
 }
 
@@ -361,6 +361,11 @@ a.body:visited, a.body_ctr:visited {
   max-width: 40%;
   border: 1px solid black;
   margin: auto;
+}
+
+.body img.pano{
+
+  
 }
 
 .listcont {
