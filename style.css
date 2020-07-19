@@ -281,11 +281,15 @@ img.full {
 
 .body h1 {
   text-align: center;
+  font-weight: bold;
   letter-spacing: 3px;
+  color: #006600;
 }
 
 .body h2 {
-  text-align: left;
+  text-align: center;
+  font-weight: bold;
+  color: #006600;
 }
 
 .body p {
@@ -364,8 +368,10 @@ a.body:visited, a.body_ctr:visited {
 }
 
 .body img.pano{
-
-  
+  display: block;
+  max-width: 100%;
+  border: 1px solid black;
+  margin: auto;
 }
 
 .listcont {
