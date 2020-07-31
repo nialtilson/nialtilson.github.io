@@ -296,8 +296,17 @@ img.full {
 h2::before {
   display: block;
   content: " ";
-  margin-top: -76px;
-  height: 76px;
+  margin-top: -55px;
+  height: 55px;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+h3::before {
+  display: block;
+  content: " ";
+  margin-top: -55px;
+  height: 55px;
   visibility: hidden;
   pointer-events: none;
 }
