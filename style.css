@@ -93,6 +93,7 @@ header {
   width: 100%;
   top: 0;
   z-index: 1;
+  display: block;
 }
 /* ELEMENT - Main, Top Navigation Menu */
 header ul {
