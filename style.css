@@ -541,6 +541,10 @@ li {
   background-color: #f1f1f1;
 }
 
+.NoBullets {
+  list-style-type: none;
+}
+
 /* ------------------------- Picture Gallery Links -------------------------- */
 div.gallery {
   border: 1px solid #333333;
