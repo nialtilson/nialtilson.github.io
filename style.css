@@ -293,6 +293,15 @@ img.full {
   color: #006600;
 }
 
+h2::before {
+  display: block;
+  content: " ";
+  margin-top: -76px;
+  height: 76px;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 .body p {
   text-align: justify;
 }
@@ -561,6 +570,7 @@ a.list:visited {
 .NoBullets {
   list-style-type: none;
 }
+
 
 /* ------------------------- Picture Gallery Links -------------------------- */
 div.gallery {
