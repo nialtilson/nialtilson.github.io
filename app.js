@@ -42,7 +42,6 @@ function img_carousel() {
 }
 
 
-
 //Script for Page Section Links in Dropdown
 var coll = document.getElementsByClassName("collapsible");
 var i;
@@ -50,11 +49,11 @@ var i;
 for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
     this.classList.toggle("active");
-    var sectiondrop = this.nextElementSibling;
-    if (sectiondrop.style.display === "block") {
-      sectiondrop.style.display = "none";
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
     } else {
-      sectiondrop.style.display = "block";
+      content.style.display = "block";
     }
   });
 }
