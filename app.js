@@ -23,6 +23,8 @@ $.get("https://nialtilson.github.io/footer.html", function(data){
   $("#footer").replaceWith(data);
 });
 
+
+
 //Script for Slideshow on Main Page
 var myIndex = 0;
 img_carousel();
@@ -39,6 +41,8 @@ function img_carousel() {
   setTimeout(img_carousel,3000);
 }
 
+
+
 //Script for Page Section Links in Dropdown
 var coll = document.getElementsByClassName("collapsible");
 var i;
@@ -46,11 +50,11 @@ var i;
 for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
     this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
+    var sectiondrop = this.nextElementSibling;
+    if (sectiondrop.style.display === "block") {
+      sectiondrop.style.display = "none";
     } else {
-      content.style.display = "block";
+      sectiondrop.style.display = "block";
     }
   });
 }
