@@ -24,6 +24,21 @@ $.get("https://nialtilson.github.io/footer.html", function(data){
 });
 
 
+//Script for Page Section Links in Dropdown
+var coll = document.getElementsByClassName("collapsible");
+var j;
+
+for (j = 0; j < coll.length; j++) {
+  coll[j].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
 
 //Script for Slideshow on Main Page
 var myIndex = 0;
@@ -39,21 +54,4 @@ function img_carousel() {
   if (myIndex > x.length) {myIndex = 1}
   x[myIndex-1].style.display = "block";
   setTimeout(img_carousel,3000);
-}
-
-
-//Script for Page Section Links in Dropdown
-var coll = document.getElementsByClassName("collapsible");
-var j;
-
-for (j = 0; j < coll.length; j++) {
-  coll[j].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
 }
