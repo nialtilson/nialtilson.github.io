@@ -543,6 +543,21 @@ li {
   font-size: 14px;
 }
 
+a.list:link {
+  text-decoration: none;
+  color: #006600;
+}
+
+a.list:hover {
+  text-decoration:underline;
+  font-weight: bold;
+}
+
+a.list:visited {
+  text-decoration: none;
+  color: #333333;
+}
+
 .NoBullets {
   list-style-type: none;
 }
