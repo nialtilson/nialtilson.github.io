@@ -513,12 +513,12 @@ li {
   border: none;
   text-align: left;
   outline: none;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .collapsible:after {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
-  font-size: 9px;
+  font-size: 10px;
   color: white;
   float: right;
   margin-left: 5px;
@@ -540,7 +540,7 @@ li {
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
-  font-size: 12px;
+  font-size: 42px;
 }
 
 .NoBullets {
