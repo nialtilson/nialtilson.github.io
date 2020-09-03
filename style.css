@@ -518,6 +518,17 @@ li {
 
 }
 
+/* --------------------- Tables (Professional) ---------------------- */
+
+table, tr, th {
+  /*border: 1px solid black;*/
+}
+
+table {
+  width: 100%;
+}
+
+
 /* --------------------- Page Section Link Collapsible ---------------------- */
 
 /* Style the button that is used to open and close the collapsible content */
