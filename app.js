@@ -3,19 +3,34 @@ $.get("https://nialtilson.github.io/navbar.html", function(data){
   $("#nav-placeholder").replaceWith(data);
 });
 
-//Main Navigation Menu Callout for Deutschland, Here We Go! Pages
-$.get("https://nialtilson.github.io/navbar-dhwg.html", function(data){
+//Main Navigation Menu Callout for [BLOG] Deutschland, Here We Go! Pages
+$.get("https://nialtilson.github.io/navbar-blog-dhwg.html", function(data){
   $("#nav-placeholder-dhwg").replaceWith(data);
 });
 
-//Main Navigation Menu Callout for Wandering the World with Nial Pages
-$.get("https://nialtilson.github.io/navbar-wtwwn.html", function(data){
+//Main Navigation Menu Callout for [BLOG] Wandering the World with Nial Pages
+$.get("https://nialtilson.github.io/navbar-blog-wtwwn.html", function(data){
   $("#nav-placeholder-wtwwn").replaceWith(data);
 });
 
-//Main Navigation Menu Callout for Deutschland, Here We Go Again! Pages
-$.get("https://nialtilson.github.io/navbar-dhwga.html", function(data){
+//Main Navigation Menu Callout for [BLOG] Deutschland, Here We Go Again! Pages
+$.get("https://nialtilson.github.io/navbar-blog-dhwga.html", function(data){
   $("#nav-placeholder-dhwga").replaceWith(data);
+});
+
+//Main Navigation Menu Callout for [PROJECT] Woodworking
+$.get("https://nialtilson.github.io/navbar-prj-wood.html", function(data){
+  $("#nav-placeholder-wood").replaceWith(data);
+});
+
+//Main Navigation Menu Callout for [PROJECT] Bikes
+$.get("https://nialtilson.github.io/navbar-prj-bikes.html", function(data){
+  $("#nav-placeholder-bikes").replaceWith(data);
+});
+
+//Main Navigation Menu Callout for [PROJECT] Other
+$.get("https://nialtilson.github.io/navbar-prj-other.html", function(data){
+  $("#nav-placeholder-other").replaceWith(data);
 });
 
 //Footer Callout for all pages
