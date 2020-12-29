@@ -127,6 +127,14 @@ now some more...
 
 
 ## Build Notes
+
+### 2020.12.29
+-- Menu Topics
+1. navbar.html holds the code required for all pages, the code relevant for the main menu items. This code is cloned (manually) in all other navbar___.html files
+2. navbar-blog-__.html - specific to all submenus relevant to each blog
+3. navbar-prj-__.html - specific to all submenus relvant to each project space
+4. NOTICE / WARNING - if any changes are made to the main menu, the navbar.html is the master, and must be copied to all other menu files
+
 ### 2020.04.24
 -- General
 1. TBD
