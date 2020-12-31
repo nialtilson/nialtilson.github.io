@@ -528,6 +528,40 @@ table {
   width: 100%;
 }
 
+/* --------------------- Tables (Bikes) ---------------------- */
+
+.bikeinfobox {
+  display: flex;
+  font-size: 18px;
+  margin: -20px 0px;
+}
+
+.box_left, .box_right {
+  list-style-type: none;
+  margin: 0px;
+  width: 50%;
+}
+
+.box_left {
+  margin-right: 7px;
+  text-align: right;
+  font-weight: bold;
+  color: #006600;
+}
+.box_right {
+  text-align: left;
+  margin-left: 7px;
+}
+
+.box_left ul, .box_right ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.box_left li {
+  text-align: right;
+}
+
 
 /* --------------------- Page Section Link Collapsible ---------------------- */
 
@@ -627,8 +661,24 @@ div.gallery .desc {
   box-sizing: border-box;
 }
 
+.responsive_ctr {
+  padding: 0px 6px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 49.99999%;
+  box-sizing: border-box;
+}
+
+.responsive_ctr_bike {
+  padding: 0px 6px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  box-sizing: border-box;
+}
+
 @media only screen and (max-width:500px) {
-  .responsive {
+  .responsive, .responsive_ctr, .responsive_ctr_bike {
     width: 100%;
   }
 }

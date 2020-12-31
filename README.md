@@ -135,6 +135,10 @@ now some more...
 3. navbar-prj-__.html - specific to all submenus relvant to each project space
 4. NOTICE / WARNING - if any changes are made to the main menu, the navbar.html is the master, and must be copied to all other menu files
 
+-- Submenu Topics
+1. All submenus (Blog_..., Project_..., Photo_...) have their own separate submenu file used for the selection of individual sub-section menus.
+2. These submenus are called up via javascript. Any time a new submenu is created, a $.get call must be added to app.js in order for the new submenu to be called up
+
 ### 2020.04.24
 -- General
 1. TBD
