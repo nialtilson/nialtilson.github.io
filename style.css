@@ -87,6 +87,10 @@ body {
   background-color: #e6e6e6;
 }
 
+body.project {
+  background-image: url("https://i.imgur.com/6WrG5Et.jpg");
+}
+
 /* ---------------------------------Top Menu--------------------------------- */
 header {
   position: sticky;
