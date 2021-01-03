@@ -549,6 +549,7 @@ table {
   text-align: right;
   font-weight: bold;
   color: #006600;
+  width: 100px;
 }
 
 #bikeinfobox td:nth-child(even) {
