@@ -530,12 +530,32 @@ table {
 
 /* --------------------- Tables (Bikes) ---------------------- */
 
-.bikeinfobox {
+/* .bikeinfobox {
   display: flex;
   font-size: 18px;
   margin: -20px 0px;
+  width: 50%;
+} */
+
+#bikeinfobox {
+  display: flex;
+  font-size: 18px;
+  margin: auto;
+  width: 50%;
 }
 
+#bikeinfobox td:nth-child(odd) {
+  padding-right: 7px;
+  text-align: right;
+  font-weight: bold;
+  color: #006600;
+}
+
+#bikeinfobox td:nth-child(even) {
+  text-align: left;
+  padding-left: 7px;
+}
+/*
 .box_left, .box_right {
   list-style-type: none;
   margin: 0px;
@@ -560,7 +580,7 @@ table {
 
 .box_left li {
   text-align: right;
-}
+} */
 
 
 /* --------------------- Page Section Link Collapsible ---------------------- */
