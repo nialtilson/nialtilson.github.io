@@ -88,7 +88,7 @@ body {
 }
 
 body.project {
-  background-image: url("https://i.imgur.com/Po23d2T.jpg");
+  background-image: url("https://i.imgur.com/Pqrpj21.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -297,6 +297,10 @@ img.full {
   text-align: center;
   font-weight: bold;
   color: #006600;
+}
+
+.body h3{
+  font-weight: bold;
 }
 
 h2::before {
