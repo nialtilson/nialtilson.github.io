@@ -159,6 +159,7 @@ header li a:hover, .dropdown:hover .subnav {
 
 header li.dropdown {
   display: inline-block;
+  padding: 0px;
 }
 
 .subnav_box {
