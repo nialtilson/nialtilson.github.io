@@ -159,7 +159,7 @@ header li a:hover, .dropdown:hover .subnav {
 
 header li.dropdown {
   display: inline-block;
-  padding: 0px;
+  /* padding: 0px; */
 }
 
 .subnav_box {
@@ -182,7 +182,7 @@ header li.dropdown {
   display: none;
   font-size: 13px;
   max-height: 500px;
-  overflow: scroll;
+  overflow: hidden;
   /* Set position to fixed next to dropdown */
   position: absolute;
   right: 0px;
