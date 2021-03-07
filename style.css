@@ -682,16 +682,16 @@ a.list:visited {
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible_body:hover {
+.active_body, .collapsible_body:hover {
   background-color: #999999;
 }
 
-.active:after {
+.active_body:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
 /* Style the collapsible content. Note: hidden by default */
-.content_mainfont {
+.content_body {
   padding: 0 18px;
   margin: 5px 0;
   display: none;
