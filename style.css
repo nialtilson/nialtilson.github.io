@@ -703,6 +703,7 @@ a.list:visited {
 .lowertable {
   text-align:center;
   margin: auto;
+  min-width: 15%;
 }
 
 /* ------------------------- Picture Gallery Links -------------------------- */
