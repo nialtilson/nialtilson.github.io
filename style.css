@@ -611,7 +611,7 @@ table {
   font-size: 14px;
 }
 
-.collapsible:after {
+.collapsible:after, .collapsible_body:after{
   content: '\02795'; /* Unicode character for "plus" sign (+) */
   font-size: 10px;
   color: white;
@@ -620,7 +620,7 @@ table {
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover {
+.active, .collapsible:hover, .collapsible_body{
   background-color: #999999;
 }
 
@@ -671,23 +671,6 @@ a.list:visited {
   text-align: left;
   outline: none;
   font-size: 14px;
-}
-
-.collapsible_body:after {
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
-  font-size: 10px;
-  color: white;
-  float: right;
-  margin-left: 5px;
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active_body, .collapsible_body:hover {
-  background-color: #999999;
-}
-
-.active_body:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
 /* Style the collapsible content. Note: hidden by default */
