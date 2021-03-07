@@ -701,7 +701,9 @@ a.list:visited {
 }
 
 .lowertable {
+  text-align:center;
   margin: auto;
+  width: auto;
 }
 
 /* ------------------------- Picture Gallery Links -------------------------- */
