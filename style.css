@@ -638,10 +638,27 @@ table {
   font-size: 14px;
 }
 
+/* For the cultural commentary responses */
 .collapsible_mainfont{
-  background:#dbdbdb;
-  font-size:1em;
-  color:black;
+  background-color: #dbdbdb;
+  font-family: sansation;
+  color: black;
+  cursor: pointer;
+  padding: 5px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1em;
+}
+
+.content_mainfont {
+  padding: 0 18px;
+  margin: 5px 0;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  font-size: 1em;
 }
 
 a.list:link {
