@@ -638,6 +638,12 @@ table {
   font-size: 14px;
 }
 
+.collapsible_mainfont{
+  background:#dbdbdb;
+  font-size:1em;
+  color:black;
+}
+
 a.list:link {
   text-decoration: none;
   color: #006600;
