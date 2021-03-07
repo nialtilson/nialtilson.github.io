@@ -40,11 +40,27 @@ $.get("https://nialtilson.github.io/footer.html", function(data){
 
 
 //Script for Page Section Links in Dropdown
-var coll = document.queryselectorALL(".collapsible,.collapsible_body");
+var coll = document.getElementsByClassName("collapsible");
 var j;
 
 for (j = 0; j < coll.length; j++) {
   coll[j].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
+//Script for Page Section Links in Dropdown
+var coll = document.getElementsByClassName("collapsible_body");
+var k;
+
+for (k = 0; k < coll.length; k++) {
+  coll[k].addEventListener("click", function() {
     this.classList.toggle("active");
     var content = this.nextElementSibling;
     if (content.style.display === "block") {
