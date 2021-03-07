@@ -700,11 +700,6 @@ a.list:visited {
   font-size: 1em;
 }
 
-line {
-  fill:none;
-  stroke:url(#grad);
-  stroke-width:3;
-}
 
 /* ------------------------- Picture Gallery Links -------------------------- */
 div.gallery {
