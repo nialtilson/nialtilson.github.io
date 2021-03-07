@@ -706,6 +706,27 @@ a.list:visited {
   min-width: 15%;
 }
 
+td.yeschoice {
+  width:50%;
+  color:#ce0f3d;
+  background-color:#f7cad5;
+}
+td.yes {
+  width:50%;
+  color:#ce0f3d;
+  background-color:none;
+}
+td.nochoice {
+  width:50%;
+  color:#006600;
+  background-color:#ffb3c6;
+}
+td.no {
+  width:50%;
+  color:#006600;
+  background-color:none;
+}
+
 /* ------------------------- Picture Gallery Links -------------------------- */
 div.gallery {
   border: 1px solid #333333;
