@@ -40,7 +40,7 @@ $.get("https://nialtilson.github.io/footer.html", function(data){
 
 
 //Script for Page Section Links in Dropdown
-var coll = document.getElementsByClassName("collapsible");
+var coll = document.getElementsByClassName("collapsible collapsible_body");
 var j;
 
 for (j = 0; j < coll.length; j++) {
