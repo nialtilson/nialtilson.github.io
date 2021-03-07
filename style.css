@@ -700,6 +700,9 @@ a.list:visited {
   font-size: 1em;
 }
 
+.lowertable {
+  margin: auto;
+}
 
 /* ------------------------- Picture Gallery Links -------------------------- */
 div.gallery {
