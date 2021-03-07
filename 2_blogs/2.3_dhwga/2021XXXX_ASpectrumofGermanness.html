@@ -53,9 +53,21 @@
           <td style="width:5%; text-align:right;"></td>
         </tr>
         <tr>
-          <td>No</td>
-          <td><svg height="12px" width="100%"><line x1="0%" y1="50%" x2="100%" y2="50%" stroke="black" /></svg></td>
-          <td>Yes</td>
+          <td style="color:#CE0F3D">No</td>
+          <td>
+            <svg height="12px" width="100%">
+              <defs>
+                <linearGradient id="LineGrad" x1=0% y1=0% x2=100% y2=100%>
+                  <stop offset=0% style="stop-color:#ce0f3d; stop-opacity:1"/>
+                  <stop offset=30% style="stop-color:#8f8f8f; stop-opacity:1"/>
+                  <stop offset=70% style="stop-color:#8f8f8f; stop-opacity:1"/>
+                  <stop offset=100% style="stop-color:#006600; stop-opacity:1"/>
+                </linearGradient>
+              </defs>
+              <line x1="0%" y1="50%" x2="100%" y2="50%" stroke="url(#LineGrad)" />
+            </svg>
+          </td>
+          <td style="color:#006600">Yes</td>
         </tr>
       </table>
 
