@@ -326,8 +326,8 @@ h3::before {
   text-align: justify;
 }
 
-ul.tightlist {
-  margin-top: 0;
+ul.nodot {
+  list-style: none;
 }
 
 a.body, a.body_ctr {
