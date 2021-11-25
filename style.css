@@ -326,6 +326,10 @@ h3::before {
   text-align: justify;
 }
 
+ul.tightlist {
+  margin-top: 0;
+}
+
 a.body, a.body_ctr {
   padding: 0px;
 }
