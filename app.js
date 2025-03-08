@@ -18,6 +18,11 @@ $.get("https://nialtilson.github.io/navbar-blog-dhwga.html", function(data){
   $("#nav-placeholder-dhwga").replaceWith(data);
 });
 
+//Main Navigation Menu Callout for [BLOG] Wandering into the Unknown with Nial Pages
+$.get("https://nialtilson.github.io/navbar-blog-wituwn.html", function(data){
+  $("#nav-placeholder-wituwn").replaceWith(data);
+});
+
 //Main Navigation Menu Callout for [PROJECT] Woodworking
 $.get("https://nialtilson.github.io/navbar-prj-wood.html", function(data){
   $("#nav-placeholder-wood").replaceWith(data);
